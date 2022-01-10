@@ -11,7 +11,7 @@
   // we got on our previous call to the noise() function
   float y = noise(my_num + 40) * height;  
   // draw a horizontal line
-  line(0, y, width, y);
+  line(0,y, width, 0);
   
   my_num = my_num + 0.02;
 }
